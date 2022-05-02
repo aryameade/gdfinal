@@ -1,0 +1,57 @@
+body {
+  background: url('Untitled_Artwork 92.png');
+}
+
+button {
+  opacity: 0;
+}
+
+button.play-all {
+  font-size: 30px;
+  position: absolute;
+  margin-left: 1150px;
+  margin-top: 770px;
+  width: 470px;
+  height: 100px;
+
+}
+
+button.play-one {
+  font-size: 30px;
+  position: absolute;
+  margin-left: 1150px;
+  margin-top: 200px;
+  width: 450px;
+  height: 70px
+
+}
+
+button.play-two {
+  font-size: 30px;
+  position: absolute;
+  margin-left: 1150px;
+  margin-top: 330px;
+  width: 450px;
+  height: 70px
+
+}
+
+button.play-three {
+  font-size: 30px;
+  position: absolute;
+  margin-left: 1150px;
+  margin-top: 470px;
+  width: 450px;
+  height: 70px
+
+}
+
+button.play-four {
+  font-size: 30px;
+  position: absolute;
+  margin-left: 1150px;
+  margin-top: 620px;
+  width: 450px;
+  height: 70px
+
+}

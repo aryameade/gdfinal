@@ -1,0 +1,38 @@
+body {
+  width: 9100px;
+  height: 1051px;
+  display: inline-block;
+  background: url('mainscroll.png');
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+#one {
+	width: 2181px;
+  height: 1050px;
+	/*background-color: #6666ff;*/
+}
+
+#two {
+	width: 2181px;
+  height: 1050px;
+	/*background-color: #6666ff;*/
+}
+
+#three {
+	width: 2181px;
+  height: 1050px;
+	/*background-color: #6666ff;*/
+}
+
+#four {
+	width: 2181px;
+  height: 1050px;
+	/*background-color: #6666ff;*/
+}

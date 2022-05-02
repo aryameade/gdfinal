@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.75">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>collections</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    	<script src="index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+    <div id="one" onmouseover="PlaySound('mySound1')"
+    onmouseout="StopSound('mySound1')"></div>
+
+    <div id="two" onmouseover="PlaySound('mySound2')"
+    onmouseout="StopSound('mySound2')"></div>
+    <div id="three" onmouseover="PlaySound('mySound3')"
+    onmouseout="StopSound('mySound3')"></div>
+    <div id="four" onmouseover="PlaySound('mySound4')"
+    onmouseout="StopSound('mySound4')"></div>
+</div>
+<audio id='mySound1' src='song1.mp3'/>
+<audio id='mySound2' src='song2.mp3'/>
+<audio id='mySound3' src='song3.mp3'/>
+<audio id='mySound4' src='song4.mp3'/>
+
+  </body>
+</html>
